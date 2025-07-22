@@ -1,0 +1,52 @@
+🧩Compuuter Networking🧩
+
+
+🧩 OSI Model (Open Systems Interconnection)
+
+🔷The OSI model is a 7-layer framework developed by the International Organization for Standardization (ISO). It standardizes how different networking devices and applications communicate over a network. Though it's theoretical, it helps understand how data flows in a network and how different layers interact.
+
+                                                        7 Layers of the OSI Model (Top to Bottom):
+
+1]Application Layer (Layer 7):
+This is the layer closest to the user. It interacts with software applications to implement communication (e.g., browsers, email). Protocols include HTTP, FTP, SMTP, DNS.
+
+2]Presentation Layer (Layer 6):
+Responsible for translating data into a format the application can understand. It handles data encoding, encryption/decryption, and compression.
+
+3]Session Layer (Layer 5):
+Manages sessions between applications. It controls the start, management, and termination of communication sessions.
+
+4]Transport Layer (Layer 4):
+Ensures end-to-end communication and error recovery. Protocols like TCP (reliable) and UDP (faster, no guarantee) work here.
+
+5]Network Layer (Layer 3):
+Deals with routing and logical addressing. It determines the best physical path for data using protocols like IP, ICMP.
+
+Data Link Layer (Layer 2):
+Provides node-to-node data transfer and handles MAC addressing and error detection. Example protocols: Ethernet, PPP.
+
+6]Physical Layer (Layer 1):
+The lowest layer, it transmits raw bits over a physical medium (like cables, switches). It defines voltages, pin layouts, and data rates.
+
+
+
+🌐 TCP/IP Model (Transmission Control Protocol/Internet Protocol)
+
+🔷The TCP/IP model is a 4-layer model used to design and implement the internet. It is a practical and simplified version of OSI and is the foundation of how the internet operates.
+
+                                                       4 Layers of the TCP/IP Model (Top to Bottom):
+
+1]Application Layer:
+Combines OSI's top three layers (Application, Presentation, Session). It handles all high-level protocols, such as HTTP, SMTP, FTP, DNS, and enables data exchange between applications.
+
+2]Transport Layer:
+Manages reliable or unreliable data delivery between hosts. Protocols like TCP (for reliability) and UDP (for speed) operate here. It ensures data integrity, sequencing, and flow control.
+
+3]Internet Layer:
+Equivalent to OSI’s Network layer. It defines IP addressing, packet routing, and logical addressing. Key protocols include IP, ICMP, ARP.
+
+4]Network Access Layer (Link Layer):
+Merges OSI's Data Link and Physical layers. It handles hardware addressing (MAC) and physical transmission of data over media like Ethernet, Wi-Fi.
+
+
+
